@@ -3,28 +3,37 @@
 <head>
     <title>User name</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="createForm1.css">
 </head>
 <body>
-<form action="/action_page.php">
+<div class="container">
+    <h1 class="title">Login️️<i class="fa fa-heart"></i></h1>
+<form action="/action_page.php" class="login-info">
     <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" placeholder="Enter email" id="email">
+        <input  type="email" class="form-control input-text" placeholder="Enter email" id="email">
     </div>
     <div class="form-group">
-        <label for="pwd">Password:</label>
         <input type="password" class="form-control" placeholder="Enter password" id="pwd">
     </div>
     <div class="form-group form-check">
         <label class="form-check-label">
-            <input class="form-check-input" type="checkbox"> Remember me
+            <input class="form-check-input" type="checkbox"><p id="remember">Remember me</p>
         </label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="sign-in">
+    <button type="submit" class="btn btn-lin">Sign in</button>
+    </div>
 </form>
+    <div class="sign-up">
+        <ins><a href="#">Lost your Password?</a></ins><br>
+        Don't have an acccount?<ins><a href="#">Sign up here!</a></ins>
+    </div>
+</div>
 </body>
 </html>
