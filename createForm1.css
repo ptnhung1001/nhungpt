@@ -13,6 +13,7 @@
 .sign-in {
     background-color: white;
     text-align: center;
+    width: 260px;
 }
 .login-info {
     margin: 40px;
