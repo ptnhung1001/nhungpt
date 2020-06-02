@@ -1,0 +1,29 @@
+.container {
+    width: 20%;
+    background-color: palevioletred;
+    border:  5px solid white;
+}
+.title {
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+}
+.sign-in {
+    background-color: white;
+    text-align: center;
+}
+.login-info {
+    margin: 40px;
+}
+#remember {
+   font-family: initial;
+    color: whitesmoke;
+}
+.sign-up {
+   text-align: center;
+    color: white;
+}
+a:link {
+    color: white;
+}
