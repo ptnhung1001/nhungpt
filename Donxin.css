@@ -1,0 +1,22 @@
+.content {
+  border:  1px solid black;
+  border-radius: 2%;
+  width: 60%;
+  margin-left: 50px;
+  color: #2c3e50;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.item_input {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.button_center {
+  text-align: center;
+  margin-top: 30px;
+}

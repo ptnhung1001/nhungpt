@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đơn xin nghỉ phép</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Donxin.css">
+</head>
+<body>
+<div class="content">
+  <h3 class="title">ĐƠN XIN NGHỈ PHÉP</h3>
+  <form>
+  <div class="item_input">
+    <div class="row">
+      <label class="col-lg-4 col-form-label">Xin nghỉ từ (Ngày giờ)*</label>
+      <div class='col-lg-8'>
+        <div class="form-group">
+          <div class='input-group date'>
+            <input type='text' class="form-control"/>
+            <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker2').datetimepicker({
+          locale: 'ru'
+        });
+      });
+    </script>
+  </div>
+  <div class="item_input">
+    <div class="row">
+      <label class="col-lg-4 col-form-label">Xin nghỉ đến (Ngày giờ)*</label>
+      <div class='col-lg-8'>
+        <div class="form-group">
+          <div class='input-group date'>
+            <input type='text' class="form-control"/>
+            <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker2').datetimepicker({
+          locale: 'ru'
+        });
+      });
+    </script>
+  </div>
+  <div class="item_input">
+    <div class="row">
+      <label class="col-lg-4 col-form-label">Lý do*</label>
+      <div class='col-lg-8'>
+        <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+    </div>
+
+  </div>
+  <div class="item_input">
+    <div class="row">
+      <label class="col-lg-4 col-form-label">Người phê duyệt*</label>
+      <div class='col-lg-8'>
+        <input type="text" class="form-control" id="phe_duyet" placeholder="Thêm người phê duyệt">
+      </div>
+    </div>
+  </div>
+    <div class="button_center">
+    <button type="submit" class="btn btn-success">GỬI YÊU CẦU</button>
+    <button type="button" class="btn btn-warning">HỦY</button>
+    </div>
+  </form>
+  <div class="item_input">
+    <div class="row">
+      <label class="col-lg-4 col-form-label"><i>* Là trường bắt buộc</i></label>
+    </div>
+  </div>
+</div>
+</body>
+</html>
